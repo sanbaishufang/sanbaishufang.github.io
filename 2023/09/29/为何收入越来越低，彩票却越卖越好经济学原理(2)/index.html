@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"sanbaishufang.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="8月份，全国共销售彩票529.57亿元[1]，同比增加184.81亿元，增长53.6%。其中，福利彩票机构销售186.43亿元，同比增加59.72亿元，增长47.1%；体育彩票机构销售343.14亿元，同比增加125.09亿元，增长57.4%。主要受重大赛事增多、即开型彩票新票上市等因素影响，彩票销量较上年同期增长较快。1-8月累计，全国共销售彩票3757.61亿元，同比增加1278.52亿元，增">
+<meta property="og:type" content="article">
+<meta property="og:title" content="为何收入越来越低，彩票却越卖越好经济学原理(2)">
+<meta property="og:url" content="http://sanbaishufang.com/2023/09/29/%E4%B8%BA%E4%BD%95%E6%94%B6%E5%85%A5%E8%B6%8A%E6%9D%A5%E8%B6%8A%E4%BD%8E%EF%BC%8C%E5%BD%A9%E7%A5%A8%E5%8D%B4%E8%B6%8A%E5%8D%96%E8%B6%8A%E5%A5%BD%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%8E%9F%E7%90%86(2)/index.html">
+<meta property="og:site_name" content="三白书房">
+<meta property="og:description" content="8月份，全国共销售彩票529.57亿元[1]，同比增加184.81亿元，增长53.6%。其中，福利彩票机构销售186.43亿元，同比增加59.72亿元，增长47.1%；体育彩票机构销售343.14亿元，同比增加125.09亿元，增长57.4%。主要受重大赛事增多、即开型彩票新票上市等因素影响，彩票销量较上年同期增长较快。1-8月累计，全国共销售彩票3757.61亿元，同比增加1278.52亿元，增">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://mmbiz.qpic.cn/sz_mmbiz_png/cOUjXC3m7octiaAsImglXFdvH3npv2rCWcpbd8yibyiapde8wic4O4scicoEDnhJj1UMRDS1g50iaeicOkqrQpUTPeDHw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="og:image" content="https://mmbiz.qpic.cn/sz_mmbiz_png/cOUjXC3m7octiaAsImglXFdvH3npv2rCWeNCr9zj2Jbz04txpWAOcB0Yicnx25EwenD4KPzhMpV2Lqxo3bILhXaA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="article:published_time" content="2023-09-29T05:00:00.000Z">
+<meta property="article:modified_time" content="2023-11-08T14:18:42.685Z">
+<meta property="article:author" content="叨叨的三白">
+<meta property="article:tag" content="经济学">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://mmbiz.qpic.cn/sz_mmbiz_png/cOUjXC3m7octiaAsImglXFdvH3npv2rCWcpbd8yibyiapde8wic4O4scicoEDnhJj1UMRDS1g50iaeicOkqrQpUTPeDHw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1">
+
+<link rel="canonical" href="http://sanbaishufang.com/2023/09/29/%E4%B8%BA%E4%BD%95%E6%94%B6%E5%85%A5%E8%B6%8A%E6%9D%A5%E8%B6%8A%E4%BD%8E%EF%BC%8C%E5%BD%A9%E7%A5%A8%E5%8D%B4%E8%B6%8A%E5%8D%96%E8%B6%8A%E5%A5%BD%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%8E%9F%E7%90%86(2)/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>为何收入越来越低，彩票却越卖越好经济学原理(2) | 三白书房</title>
+  
+
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?10b42f69ba5a095e4261d87ea5941516";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">三白书房</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://sanbaishufang.com/2023/09/29/%E4%B8%BA%E4%BD%95%E6%94%B6%E5%85%A5%E8%B6%8A%E6%9D%A5%E8%B6%8A%E4%BD%8E%EF%BC%8C%E5%BD%A9%E7%A5%A8%E5%8D%B4%E8%B6%8A%E5%8D%96%E8%B6%8A%E5%A5%BD%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%8E%9F%E7%90%86(2)/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="叨叨的三白">
+      <meta itemprop="description" content="浮生若梦，为欢几何">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="三白书房">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          为何收入越来越低，彩票却越卖越好经济学原理(2)
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2023-09-29 13:00:00" itemprop="dateCreated datePublished" datetime="2023-09-29T13:00:00+08:00">2023-09-29</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-11-08 22:18:42" itemprop="dateModified" datetime="2023-11-08T22:18:42+08:00">2023-11-08</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">读书笔记</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.1k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>8月份，全国共销售彩票529.57亿元[1]，同比增加184.81亿元，增长53.6%。其中，福利彩票机构销售186.43亿元，同比增加59.72亿元，增长47.1%；体育彩票机构销售343.14亿元，同比增加125.09亿元，增长57.4%。主要受重大赛事增多、即开型彩票新票上市等因素影响，彩票销量较上年同期增长较快。1-8月累计，全国共销售彩票3757.61亿元，同比增加1278.52亿元，增长51.6%。其中，福利彩票机构销售1263.25亿元，同比增加264.13亿元，增长26.4%；体育彩票机构销售2494.36亿元，同比增加1014.39亿元，增长68.5%。</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/cOUjXC3m7octiaAsImglXFdvH3npv2rCWcpbd8yibyiapde8wic4O4scicoEDnhJj1UMRDS1g50iaeicOkqrQpUTPeDHw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p>数据来源：国家财政部</p>
+<p>同时，我们再看失业率，随着经济增速放缓，失业率仍在不断增加，从我们的生活经验来看，收入降低，那么商品销售数据应该越来越差才是。那么，为啥人们收入越来越低，彩票却越来越好呢？</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/cOUjXC3m7octiaAsImglXFdvH3npv2rCWeNCr9zj2Jbz04txpWAOcB0Yicnx25EwenD4KPzhMpV2Lqxo3bILhXaA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p>数据来源：国家统计局</p>
+<p>我们试图用经济学原理去解释，以冰淇淋为例，如果在某个夏天，经济危机导致你失去工作，你对冰淇淋的需求会变化吗？很可能的情况是，你会减少对冰淇淋的需求。失去工作意味着可支配的收入减少，那你不得不把钱花在刀刃上。因此你选择在大多数物品上减少需求以度过这段危机。当收入减少时，如果一种物品的需求量减少，那么这种物品就被称为<strong>正常物品</strong>。</p>
+<p>但并不是所有的物品都是正常物品。当收入减少时，如果一种物品的需求增加，这种物品就被称为<strong>低档物品</strong>。低档物品的一个例子就是公共汽车，随着你收入减少，你不大可能买汽车或打车，而更可能去坐公共汽车。</p>
+<p>早在20世纪30年代美国经济大萧条时期，就提出过“口红效应”的经济理论。“口红效应”是指因经济萧条而导致口红热卖的一种有趣的经济现象，也叫“低价产品偏爱趋势”。在美国，每当在经济不景气时，口红的销量反而会直线上升。这是因为，在美国，人们认为口红是一种比较廉价的奢侈品，在经济不景气的情况下，人们仍然会有强烈的消费欲望，所以会转而购买比较廉价的奢侈品。口红作为一种“廉价的非必要之物”，可以对消费者起到一种“安慰”的作用，尤其是当柔软润泽的口红接触嘴唇的那一刻。再有，经济的衰退会让一些人的消费能力降低，这样手中反而会出现一些“小闲钱”，正好去买一些“廉价的非必要之物”。</p>
+<p>彩票是一种低档消费品，使用数学期望计算，投入2元的双色球，你期望的收益为-1.0623元，作为消费，它带来的只是中奖那一刻的惊喜（当然更多的是失望），随着收入的减少，你不大可能去买房子这种奢侈品，但彩票几乎人人都买的起，因此，彩票自然得到大卖。</p>
+
+    </div>
+
+    
+    
+    
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/images/wechat_channel.jpg">
+            <span class="icon">
+              <i class="fab fa-weixin"></i>
+            </span>
+
+            <span class="label">WeChat</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E7%BB%8F%E6%B5%8E%E5%AD%A6/" rel="tag"># 经济学</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/09/24/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%89%AA%E5%A4%B4%E5%8F%91%E8%B6%8A%E6%9D%A5%E8%B6%8A%E8%B4%B5%20%20%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%8E%9F%E7%90%86(1)/" rel="prev" title="为什么剪头发越来越贵 | 经济学原理(1)">
+      <i class="fa fa-chevron-left"></i> 为什么剪头发越来越贵 | 经济学原理(1)
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2023/10/11/%E3%80%8A%E6%B2%A7%E6%B5%AA%E4%B9%8B%E6%B0%B4%E3%80%8B%20%20%E4%B8%80%E4%B8%AA%E7%A9%B7%E5%AD%A6%E7%94%9F%E7%9A%84%E5%AE%98%E5%9C%BA%E4%B9%8B%E8%B7%AF/" rel="next" title="《沧浪之水》  一个穷学生的官场之路">
+      《沧浪之水》  一个穷学生的官场之路 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">叨叨的三白</p>
+  <div class="site-description" itemprop="description">浮生若梦，为欢几何</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">30</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">24</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">叨叨的三白</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">66k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">1:01</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>

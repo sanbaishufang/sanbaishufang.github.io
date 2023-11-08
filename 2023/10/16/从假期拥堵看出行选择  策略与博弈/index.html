@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"sanbaishufang.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="在刚刚过去的中秋国庆假期，我出了一趟门，遇到了老生常谈的出行拥堵问题，这篇文章就假期拥堵的方面来说一说出行选择。 中秋节是中国的传统节日，人们会和家人团聚，而国庆节是中国的国家节日，人们通常会利用这个长假期外出旅游。据新闻报道：9月27日晚，出广东的高速公路就已经开始大堵车，有市民提前三天便开始动身，但仍被堵在路上，有车主在社交平台表示，开车19个小时还没出省，高速路上挤满了“聪明人”！ 提前出发">
+<meta property="og:type" content="article">
+<meta property="og:title" content="从假期拥堵看出行选择  策略与博弈">
+<meta property="og:url" content="http://sanbaishufang.com/2023/10/16/%E4%BB%8E%E5%81%87%E6%9C%9F%E6%8B%A5%E5%A0%B5%E7%9C%8B%E5%87%BA%E8%A1%8C%E9%80%89%E6%8B%A9%20%20%E7%AD%96%E7%95%A5%E4%B8%8E%E5%8D%9A%E5%BC%88/index.html">
+<meta property="og:site_name" content="三白书房">
+<meta property="og:description" content="在刚刚过去的中秋国庆假期，我出了一趟门，遇到了老生常谈的出行拥堵问题，这篇文章就假期拥堵的方面来说一说出行选择。 中秋节是中国的传统节日，人们会和家人团聚，而国庆节是中国的国家节日，人们通常会利用这个长假期外出旅游。据新闻报道：9月27日晚，出广东的高速公路就已经开始大堵车，有市民提前三天便开始动身，但仍被堵在路上，有车主在社交平台表示，开车19个小时还没出省，高速路上挤满了“聪明人”！ 提前出发">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://mmbiz.qpic.cn/sz_mmbiz_jpg/cOUjXC3m7ofUibhHSIIIzZZE8k62v7n8Pr58YUrN1upTGUTknjXcAgyzJ1NmD4lkgEUjU66bCfqWYTvRUJxvRUA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="article:published_time" content="2023-10-16T05:00:00.000Z">
+<meta property="article:modified_time" content="2023-11-08T14:44:22.537Z">
+<meta property="article:author" content="叨叨的三白">
+<meta property="article:tag" content="经济学">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://mmbiz.qpic.cn/sz_mmbiz_jpg/cOUjXC3m7ofUibhHSIIIzZZE8k62v7n8Pr58YUrN1upTGUTknjXcAgyzJ1NmD4lkgEUjU66bCfqWYTvRUJxvRUA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1">
+
+<link rel="canonical" href="http://sanbaishufang.com/2023/10/16/%E4%BB%8E%E5%81%87%E6%9C%9F%E6%8B%A5%E5%A0%B5%E7%9C%8B%E5%87%BA%E8%A1%8C%E9%80%89%E6%8B%A9%20%20%E7%AD%96%E7%95%A5%E4%B8%8E%E5%8D%9A%E5%BC%88/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>从假期拥堵看出行选择  策略与博弈 | 三白书房</title>
+  
+
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?10b42f69ba5a095e4261d87ea5941516";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">三白书房</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://sanbaishufang.com/2023/10/16/%E4%BB%8E%E5%81%87%E6%9C%9F%E6%8B%A5%E5%A0%B5%E7%9C%8B%E5%87%BA%E8%A1%8C%E9%80%89%E6%8B%A9%20%20%E7%AD%96%E7%95%A5%E4%B8%8E%E5%8D%9A%E5%BC%88/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="叨叨的三白">
+      <meta itemprop="description" content="浮生若梦，为欢几何">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="三白书房">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          从假期拥堵看出行选择  策略与博弈
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2023-10-16 13:00:00" itemprop="dateCreated datePublished" datetime="2023-10-16T13:00:00+08:00">2023-10-16</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-11-08 22:44:22" itemprop="dateModified" datetime="2023-11-08T22:44:22+08:00">2023-11-08</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">读书笔记</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>3k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>在刚刚过去的中秋国庆假期，我出了一趟门，遇到了老生常谈的出行拥堵问题，这篇文章就假期拥堵的方面来说一说出行选择。</p>
+<p>中秋节是中国的传统节日，人们会和家人团聚，而国庆节是中国的国家节日，人们通常会利用这个长假期外出旅游。据新闻报道：9月27日晚，出广东的高速公路就已经开始大堵车，有市民提前三天便开始动身，但仍被堵在路上，有车主在社交平台表示，开车19个小时还没出省，高速路上挤满了“聪明人”！</p>
+<p>提前出发为何不再奏效呢？这个现象可以用博弈论中的“囚徒困境”来解释。</p>
+<p><strong>什么是“囚徒困境”</strong></p>
+<p>囚徒困境的故事讲的是，张三和李四两个嫌疑犯合作作案后被警察抓住，分别关在不同的屋子里接受审讯，他们俩无法交流。警察知道两人有罪，但缺乏足够的证据。如果两人都抵赖，他们将被判刑一年；如果两人都坦白，各判八年；但是如果两人其中有一个人坦白另一个人抵赖，则坦白的放出去，抵赖的判十年。</p>
+<p>于是，每个囚徒都面临两种选择：坦白或抵赖。</p>
+<p>我们用一个简单表格来体现张三和李四选择的最终结果：</p>
+<table>
+<thead>
+<tr>
+<th>所获刑期</th>
+<th>对方</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>坦白</td>
+<td>抵赖</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>自己</td>
+<td>坦白</td>
+<td>判8年</td>
+<td>判0年</td>
+</tr>
+<tr>
+<td>抵赖</td>
+<td>判10年</td>
+<td>判1年</td>
+<td></td>
+</tr>
+</tbody></table>
+<p>以张三的视角来分析：</p>
+<p>1、假设李四这个家伙就是一个软骨头，一看到坦白可以从宽处理，立马就招了，那我不招，不仅便宜了李四，我自己要比坦白多坐2年牢；</p>
+<p>2、假设李四是“真哥们”，宁死不从，那我要不要交代呢？我们从表格最后一列看，此时坦白就一点事也没有，相反抵赖还要多坐1年牢。</p>
+<p>从上面两点来看，无论李四到底招不招，张三坦白都是优势策略。因此，张三和李四最终大概率会选择坦白，都获得8年牢饭体验。等他们在监狱相见时，会不会面面相觑：前一秒还牢不可破的友谊小船为何说翻就翻呢？</p>
+<p><strong>假期出行的博弈</strong></p>
+<p>接着我们以高速公路为例，节假日在高速公路行驶，我们假设只有2种策略：</p>
+<ol>
+<li>正常节假日出行。</li>
+<li>提前出行。</li>
+</ol>
+<p>必要的假设更有利于我们专注分析问题场景，这通常也是一种优势策略。</p>
+<p>同样，我们列举一下最终结果：</p>
+<table>
+<thead>
+<tr>
+<th>拥堵程度（*越多表示越拥堵）</th>
+<th>别人</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>提前出行</td>
+<td>正常出行</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>自己</td>
+<td>提前出行</td>
+<td>***</td>
+<td>*</td>
+</tr>
+<tr>
+<td>正常出行</td>
+<td>****</td>
+<td>*****</td>
+<td></td>
+</tr>
+</tbody></table>
+<p>1、如果都正常出行，则最拥堵；</p>
+<p>2、如果自己正常出行，别人提前出行，则次拥堵；</p>
+<p>3、如果都提前出行，则拥堵程度排第三；</p>
+<p>4、如果自己提前出行，别人正常出行，则自己畅通无阻；</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/cOUjXC3m7ofUibhHSIIIzZZE8k62v7n8Pr58YUrN1upTGUTknjXcAgyzJ1NmD4lkgEUjU66bCfqWYTvRUJxvRUA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p>我们有了分析“囚徒困境”的经验，现在我们分析出行日期选择的博弈，对于每个人来说，无论别人怎么选择，自己提前出行总是最优的策略。从“囚徒困境”和“出行博弈”的结果来看，我们可以得出一条结论：假如你有一个优势策略，请照办。不要担心你的对手会怎么做。假如你没有一个优势策略，但你的对手有，那么就当他会采用这个优势策略，相应选择你自己最好的做法。提前出行虽然没办法让我们享受最优的收益，但也是次优的一种选择。</p>
+<p><strong>破除困境</strong></p>
+<p>为什么作为参与者，不选择合作呢？这个问题的关键是：你没法和别人交流商量好。在“囚徒困境”中，张三和李四各自单独身处一间审讯室，他们之间无法交流，其实，即使他们之间存在交流，结果很大可能也不会发生变化。我们以OPEC（石油输出组织）减产石油为例说明，自20世纪70年代开始，OPEC一直合谋提高原油价格，他们通过减产的方式促使价格提高，获得单位价格较高的收益。我们以伊朗和沙特为例，他们各自分别有2个策略：保持减产和偷偷增产。我们容易发现，如果对方老老实实遵守减产协定，那自己偷偷增产则获得更大的利益，偷偷增产是每个国家的优势策略。这个协定的问题在于，怎样才能在双方都面临诱惑时、很想欺骗对方、从对方所失中获利的前提下，找到一个方法，维持一个低产量、高利润价格的策略。对OPEC来说，他们已经可以讨论，但是，即使签订了协定，谁也无法保证不会违反它，这就陷入了新的一轮囚徒困境，策略分别是遵守协定和违反协定。领导合谋的成员虽然骂骂咧咧：“我再也不相信你了”，但背后可能也在偷偷违反协定。</p>
+<p>从OPEC的例子我们发现，要达成合作难点在于如何觉察出谁在作弊以及对作弊者的惩罚。</p>
+<p>在OPEC的例子里，觉察作弊的思路可以是看原油的价格，比如伊朗和沙特在合作过程中，每天生产200万桶原油下价格才会达到25美元一桶，倘若价格低于25美元，就认为是有人作弊。从经济学原理来看，价格下降有两种原因，一是需求降低，二是生产增加，即有人作弊。作为OPEC组织，除非对需求和生产市场非常熟悉，否则还是有“误会”作弊的风险，不过可以设定一个价格阈值，当价格低于阈值，则认为是对方作弊，以减少“误会”几率。</p>
+<p>惩罚也是一个很重要的点。类似于毒品犯罪里，有警察会威胁嫌疑人故意要释放他，用以引起外面的同伙对他的猜忌，这种原理在于：一旦嫌疑人在证据确凿的情况下被释放，卖毒品的同伙人就会认定他已经坦白，会对他发起疯狂的报复。在OPEC里，若要达成合作，则要制定其它经济政治相关的惩罚，如经济制裁，政治孤立等，成员要想违反则不得不慎重考虑。当然这种惩罚也是有限的，比如经济不景气的时候，大家觉得已经山穷水尽，没有明天了，那么作弊和背叛会更激烈。</p>
+<p>《圣经》中“以牙还牙，以眼还眼”向我们指示了一个惩罚机制，“人们对你怎么做，你也对他们怎么做”。这个策略在双方一开始时是合作的，一旦有人背叛，则模仿对方上一阶段的行动。再也没有什么字眼会比“以牙还牙”更加清晰、更加简单。这一机制不会引发作弊，所以是善意的。它也不会让作弊者逍遥法外，所以能够产生刺激。它还是宽容的，因为它不会长时间怀恨在心，而愿意恢复合作。但是，它仍然存在缺陷，如果双方发生了一点误会，则这个机制将会陷入毁灭性的循环。</p>
+<p>《论语》中“或曰：‘以德报怨，何如？’子曰：‘何以报德？以直报怨，以德报德’”则指示另一个惩罚机制。孔子早在几千年前就告诉我们“以直报怨”，即以公道正直的态度来对待所怨恨的对方，在对方只是偶然的背叛时显得宽容，在对方故意的背叛时则公正无私地实施惩罚。短期内的误会恶化了双方关系，如一方宽宏大量，不对每一次背叛做出惩罚，将维持更久的合作。这样一来，则可能胜过“以牙还牙”的策略。这种额外的宽容固然可能使别人对你稍加作弊，但对方真的有投机倾向，我们也不必听之任之，需让他自食其果。</p>
+<p><strong>均衡策略</strong></p>
+<p>在现实这个不完美的世界中，囚徒困境的博弈是通常存在的。如果我们达不成完美的合作，寻找最佳的一对策略也是必要的。按照这对策略做，各个参与者的行动都是对对方行动的最佳回应。也就是说，这对策略是让人不后悔的决定。</p>
+<p>为什么一个博弈的参与者非得达到这么一个结局呢？我们可以说出好几个理由。首先，存在避免循环推理的必要，因为循环推理帮不上忙。以“出行博弈”为例，提前出行虽没有达到最好的效果，但也是次优的效果。均衡在没完没了的“我知道他知道我知道……”的循环里是稳定不变的，这使参与者对其他人的行动的估计能保持连贯性。各方正确预计别人的行动，并且确定自己的最佳对策。</p>
+<p>均衡策略的第二个好处出现在零和博弈中。在这种博弈里，参与者的利益严格相悖。你的对手不能通过引诱你采取一个均衡策略而得到任何好处。你已经充分考虑到他们对你正在做的事情会有什么样的最佳对策。</p>
+<p>最后，均衡结果并不自动意味着这就是对博弈的全体参与者最有利的结果，更不意味着是对整个社会作为一个整体而言最有利的结果。最有利结果需要通过“觉察作弊”和“”惩罚机制”来保障，“以牙还牙”、“以德报怨”都是一种惩罚机制。</p>
+<p>看完本文，请从均衡策略角度思考下面的问题：明天某个时候你要在市里会见某人。他已被告知要与你会面。不过，双方都没有更多信息，不知道究竟何时或者在哪里会面。那么，你应该于何时去何地？</p>
+
+    </div>
+
+    
+    
+    
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/images/wechat_channel.jpg">
+            <span class="icon">
+              <i class="fab fa-weixin"></i>
+            </span>
+
+            <span class="label">WeChat</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E7%BB%8F%E6%B5%8E%E5%AD%A6/" rel="tag"># 经济学</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/10/11/%E3%80%8A%E6%B2%A7%E6%B5%AA%E4%B9%8B%E6%B0%B4%E3%80%8B%20%20%E4%B8%80%E4%B8%AA%E7%A9%B7%E5%AD%A6%E7%94%9F%E7%9A%84%E5%AE%98%E5%9C%BA%E4%B9%8B%E8%B7%AF/" rel="prev" title="《沧浪之水》  一个穷学生的官场之路">
+      <i class="fa fa-chevron-left"></i> 《沧浪之水》  一个穷学生的官场之路
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">叨叨的三白</p>
+  <div class="site-description" itemprop="description">浮生若梦，为欢几何</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">30</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">24</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">叨叨的三白</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">66k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">1:01</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
